@@ -1,11 +1,45 @@
 /** Scope your css rules in a specific class to prevent merge conflicts! **/
 
+.header {
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.10);
+}
+
+
+.main-menu__container .main-menu {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 0px auto;
+    width: 60%;
+}
+
+
+.main-menu li a {
+    color: var(--zwitsal-orange);
+    text-decoration: none;
+}
+
+.main-menu__container ul {
+    list-style: none;
+}
+
 .main-menu .sub-menu {
+    color: var(--zwitsal-orange);
     display: none;
+}
+
+.main-menu {
+    position: relative;
 }
 
 .main-menu li:hover .sub-menu {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: green;
+    margin-top: 30px;
+    position: absolute;
 }
 
 .main-menu .sub-menu {
