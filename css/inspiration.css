@@ -1,1 +1,38 @@
 /** Scope your css rules in a specific class to prevent merge conflicts! **/
+.inspiration {
+    height: 500px;
+    width: 100%;
+    background-color: white;
+}
+.inspiratie-titel {
+    font-size: 40px;
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+.top-two-images {
+    display: flex;
+    justify-content: center;
+}
+.lower-three-images {
+    display: flex;
+}
+.inspiration-footer {
+    diplay: flex;
+    justify-items: center;
+    font-size: 20px;
+}
+.inspiration-footer-text {
+    color: red;
+}
+.inspiration-footer-icon {
+    height: 20px;
+}
+.inspiration-footer-text:hover {
+    cursor: pointer;
+    color: #ffaf80;
+}
+.inspiration-footer-icon:hover {
+    color: #ffaf80;
+    margin: 1px;
+}
