@@ -1,1 +1,27 @@
 /** Scope your css rules in a specific class to prevent merge conflicts! **/
+.scroll {
+    position: fixed;
+    bottom: 2rem;
+    right: 0;
+    background: transparent;
+    color: #ea5635;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Give You Glory', cursive;
+    font-weight: 400;
+    padding: .5rem;
+    border-radius: .25rem 0 0 .25rem;
+    box-shadow: -1px 1px 3px gray;
+    z-index: 99;
+   
+  
+}
+
+.to-top-button {
+   
+}
+
+.arrow {
+ margin: 0;
+ padding: 0;
+}
