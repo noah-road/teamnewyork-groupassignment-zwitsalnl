@@ -1,1 +1,23 @@
 /** Scope your css rules in a specific class to prevent merge conflicts! **/
+
+.popular-products {
+    max-width: 1140;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.fav-container {
+     display: flex;
+     justify-content: center;
+}
+
+.fav-product {
+    padding: 16px;
+}
+
+@media (max-width: 600px) {
+.fav-container{
+    flex-direction: column;
+}
+}
