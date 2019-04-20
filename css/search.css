@@ -2,6 +2,11 @@
 .search {
     width: 100%;
     background-color: white;
+    display: none;
+}
+
+.search.visible {
+    display: block;
 }
 
 .search-header {
