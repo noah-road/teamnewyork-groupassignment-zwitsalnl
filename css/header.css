@@ -10,7 +10,7 @@
 .main-menu__container .main-menu {
     align-items: center;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     margin: 0px auto;
     width: 60%;
     margin-left: 20rem;
