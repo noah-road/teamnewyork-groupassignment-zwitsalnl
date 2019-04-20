@@ -1,1 +1,19 @@
 /** Scope your css rules in a specific class to prevent merge conflicts! **/
+footer {
+    width: 100%;
+    background-color: grey;
+    position: absolute;
+    bottom: 0;
+}
+
+footer .container {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    width: 80%;
+}
+
+footer .copy-right-section {
+    margin: 0 auto;
+    width: 80%;
+}
