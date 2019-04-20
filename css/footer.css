@@ -2,8 +2,7 @@
 footer {
     width: 100%;
     background-color: grey;
-    position: absolute;
-    bottom: 0;
+    margin-bottom: 0;
 }
 
 footer .container {
@@ -16,4 +15,8 @@ footer .container {
 footer .copy-right-section {
     margin: 0 auto;
     width: 80%;
+}
+
+.text-copyright {
+ margin-bottom: 0;
 }
