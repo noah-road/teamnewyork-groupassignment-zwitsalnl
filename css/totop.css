@@ -3,25 +3,30 @@
     position: fixed;
     bottom: 2rem;
     right: 0;
-    background: transparent;
+    background: hsla(0,0%,90%,.31);
     color: #ea5635;
     cursor: pointer;
-    font-size: 14px;
+    display: flex;
+    font-size: 56px;
     font-family: 'Give You Glory', cursive;
     font-weight: 400;
     padding: .5rem;
     border-radius: .25rem 0 0 .25rem;
-    box-shadow: -1px 1px 3px gray;
     z-index: 99;
-   
+    width: 47px;
+    height: 57px;
   
 }
 
-.to-top-button {
-   
+.scroll:hover{
+    color: #ff9b86;
 }
 
 .arrow {
- margin: 0;
- padding: 0;
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1rem;
+    margin: 0;
+    padding: 0;
 }
+
