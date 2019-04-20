@@ -1,1 +1,52 @@
 /** Scope your css rules in a specific class to prevent merge conflicts! **/
+
+.promotions {
+    max-width: 1170px;
+    width:100%;
+    margin: auto;
+}
+
+.promo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.promo-img {
+    position: relative;
+  /* padding-top: 56.25%; /* 16:9 Aspect Ratio*/
+   max-width: 450px;
+   width: 50vw;
+   border-radius: 10px;
+  }
+
+  .text-container-promo-1 {
+      padding-right:95px;
+  }
+
+  .text-container-promo-2 {
+    padding-left:95px;
+}
+
+@media (max-width:975px) {
+.promo-1 {
+    flex-direction: column;
+}
+.promo-2 {
+    flex-direction: column-reverse;
+}
+
+.text-container-promo-1 {
+    padding-right:0px;
+}
+
+.text-container-promo-2 {
+  padding-left:0px;
+}
+.promo-img {
+    max-width: 960px;
+    width: 95%;
+    
+}
+
+}
