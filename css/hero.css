@@ -1,30 +1,27 @@
 /** Scope your css rules in a specific class to prevent merge conflicts! **/
 .hero{
-    background-color:grey;
-    color:white;
+    background-image: url(/content/dam/brands/baby/global_use/1382136-dsf5136-2880x1000.jpg.rendition.2870.980.jpg);
     width:100%;
     height:500px;
-    display:flex;
 }
 .hero-backgroound{
-    display:flex;
-    border:4px solid red;
-    width:100%;
-    height:500px;
+  width:100%;
+  background-size: cover;
+  height: 500px;
+  font-size: 16px;
+  width:100%;
 }
 .hero-text{
     font-size:50px;
     font-style: italic;
-    display:flex;
-    flex-direction:column;
+    color: grey;
 }
 .hero-lees-meer{
     background-color: red;
-    font-color:white;
-    font-size: 40px;
-    width:300px;
-    height: 100px;
-    justify-items: center;
-    justify-content:center;
-    text decoration:none;
+    color:white;
+    font-size: 30px;
+    width:200px;
+    height: 30px;
+    padding:1em;
+  border-radius:20px;
 }
