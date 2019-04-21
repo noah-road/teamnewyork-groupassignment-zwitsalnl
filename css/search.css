@@ -25,6 +25,8 @@
 .search-lists {
     text-decoration: none;
     color: red;
+    list-style: none;
+
 }
 
 .search-icon {
