@@ -1,1 +1,116 @@
 /** Scope your css rules in a specific class to prevent merge conflicts! **/
+.inspiration {
+    height: 600px;
+    width: 100%;
+    background-color: white;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.inspiratie-titel {
+    font-size: 40px;
+    font-family: Bradley Hand ITC;
+    font-weight: bold;
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.top-two-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 250px;
+    width:1200px;
+    margin-left:3rem;
+
+
+}
+
+.inspiration-image-boxe-1 {
+    background: url(https://www.zwitsal.nl/sk-eu/content/dam/brands/baby/netherlands/1193699-bslf-small.jpg.rendition.380.380.jpg);
+    background: cover;
+    height: 230px;
+    width: 35%;
+    margin-right: 0.5rem;
+    border-radius: 10px;
+
+}
+
+.inspiration-image-boxe-2 {
+    background: url(https://www.zwitsal.nl/sk-eu/content/dam/brands/baby/netherlands/1268647-zwitsal-baby-op-handdoek-naast-bad-small.jpg.rendition.380.380.jpg);
+    background: cover;
+    height: 230px;
+    width: 35%;
+    margin-left: 0.5rem;
+    border-radius: 10px;
+}
+
+.lower-three-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 250px;
+    border-radius: 25px;
+}
+
+.inspiration-image-boxe-3 {
+    background: url(https://www.zwitsal.nl/sk-eu/content/dam/brands/baby/netherlands/1189123-bslf-small.jpg.rendition.380.380.jpg);
+    background: cover;
+    height: 250px;
+    width: 25%;
+    border-radius: 15px;
+}
+
+.inspiration-image-boxe-4 {
+    background: url(https://www.zwitsal.nl/sk-eu/content/dam/brands/baby/netherlands/1193127-bslf-small.jpg.rendition.380.380.jpg);
+    background: cover;
+    height: 250px;
+    width: 25%;
+    border-radius: 15px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.inspiration-image-boxe-5 {
+    background: url(https://www.zwitsal.nl/sk-eu/content/dam/brands/baby/netherlands/1346318-vandamm-post-7-1440x344-small.jpg.rendition.380.380.jpg);
+    background: cover;
+    height: 250px;
+    width: 25%;
+    border-radius: 15px;
+}
+.inspiration-texts{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    padding: 100px 100px 10px 100px;
+    color:white;
+    text-shadow: 2px 2px 5px black;
+    font-size:40px;
+    
+}
+
+.inspiration-footer {
+    diplay: flex;
+    justify-items: center;
+    font-size: 20px;
+
+}
+
+.inspiration-footer-text {
+    color: red;
+}
+
+.inspiration-footer-icon {
+    height: 20px;
+}
+
+.inspiration-footer-text:hover {
+    cursor: pointer;
+    color: #ffaf80;
+}
+
+.inspiration-footer-icon:hover {
+    color: #ffaf80;
+    margin: 1px;
+}
