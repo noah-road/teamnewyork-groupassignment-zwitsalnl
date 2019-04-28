@@ -1,38 +1,40 @@
 /** Scope your css rules in a specific class to prevent merge conflicts! **/
 .header {
-    border: 2px solid orange;
-    width: 100%;
-    margin: 0 auto;
+    background-color: white;
     position: fixed;
+    width: 100vw;
+    z-index: 999;
 }
 
 .main-menu__container {
+    position: relative;
     width: 100%;
-    position: absolute;
 }
+
+
 
 .main-menu {
+    border: 2px solid green;
+    width: 80%;
     margin: 0 auto;
-    width: 60%;
-    border: 2px solid hotpink;
+    height: 10vh;
     display: flex;
-    justify-content: space-around;
-
+    justify-content: space-between;
+    align-items: center;
 }
-
 
 .main-menu .sub-menu {
     display: none;
-    position: absolute;
-    left: 0;
 }
 
 .main-menu li:hover .sub-menu {
-    width: 100%;
-    display: grid;
-    border: 2px solid purple;
     background-color: white;
-    z-index: 99;    
+    left: 0;
+    position: absolute;
+    display: grid;
+    width: 100%;
+    border: 2px solid green;
+    height: 50vh;
 }
 
 .main-menu .sub-menu {
@@ -40,18 +42,25 @@
     grid-gap: 1rem;
 } 
 
+/* text styling main-menu & sub-menu */
+
 .main-menu .sub-menu ul li a, .main-menu ul li a, .main-menu li a {
     color: black;
     list-style: none;
     text-decoration: none;
+    font-weight: normal;
 }
 
 .main-menu li, .sub-menu li {
      list-style: none;
 }
 
+
 .main-menu li a {
     color: orange;
+    font-weight: bold;
 }
 
-.main-menu
+.main-menu .sub-menu li a {
+    font-weight: bold;
+}
