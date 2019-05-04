@@ -1,14 +1,66 @@
 /** Scope your css rules in a specific class to prevent merge conflicts! **/
+.header {
+    background-color: white;
+    position: fixed;
+    width: 100vw;
+    z-index: 999;
+}
+
+.main-menu__container {
+    position: relative;
+    width: 100%;
+}
+
+
+
+.main-menu {
+    border: 2px solid green;
+    width: 80%;
+    margin: 0 auto;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .main-menu .sub-menu {
     display: none;
 }
 
 .main-menu li:hover .sub-menu {
+    background-color: white;
+    left: 0;
+    position: absolute;
     display: grid;
+    width: 100%;
+    border: 2px solid green;
+    height: 50vh;
 }
 
 .main-menu .sub-menu {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
+} 
+
+/* text styling main-menu & sub-menu */
+
+.main-menu .sub-menu ul li a, .main-menu ul li a, .main-menu li a {
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.main-menu li, .sub-menu li {
+     list-style: none;
+}
+
+
+.main-menu li a {
+    color: orange;
+    font-weight: bold;
+}
+
+.main-menu .sub-menu li a {
+    font-weight: bold;
 }

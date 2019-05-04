@@ -1,1 +1,27 @@
 /** Scope your css rules in a specific class to prevent merge conflicts! **/
+.hero{
+    background-image: url(/content/dam/brands/baby/global_use/1382136-dsf5136-2880x1000.jpg.rendition.2870.980.jpg);
+    width:100%;
+    height:500px;
+}
+.hero-backgroound{
+  width:100%;
+  background-size: cover;
+  height: 500px;
+  font-size: 16px;
+  width:100%;
+}
+.hero-text{
+    font-size:50px;
+    font-style: italic;
+    color: grey;
+}
+.hero-lees-meer{
+    background-color: red;
+    color:white;
+    font-size: 30px;
+    width:200px;
+    height: 30px;
+    padding:1em;
+  border-radius:20px;
+}

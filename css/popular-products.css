@@ -1,1 +1,55 @@
 /** Scope your css rules in a specific class to prevent merge conflicts! **/
+
+.popular-products {
+    max-width: 1170px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 2%;
+}
+
+.fav-container {
+     display: flex;
+     justify-content: center;
+}
+
+.fav-product {
+    padding: 16px;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+
+.fav-product:hover {
+    background-color: #fdfbdf;
+}
+
+.fav-title {
+    margin: 0 0 30px;
+    color: #ea5635;
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.fav-product:hover .fav-item-title {
+    color: #ea5635;
+}
+
+.fav-item-title {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fav-text {
+    text-align: left;
+}
+
+.fav-img {
+    padding-left:10%;
+    padding-right: 15%;
+}
+
+@media (max-width: 600px) {
+.fav-container{
+    flex-direction: column;
+}
+}
