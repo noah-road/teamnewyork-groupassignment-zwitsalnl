@@ -1,22 +1,49 @@
 /** Scope your css rules in a specific class to prevent merge conflicts! **/
-footer {
+.footer {
     width: 100%;
-    background-color: grey;
+    background-color: #f6f6f6;
     margin-bottom: 0;
 }
 
-footer .container {
+.footer .container {
     display: grid;
     margin: 0 auto;
     grid-template-columns: 2fr 1fr 1fr 1fr;
-    width: 80%;
+    padding-top: 5rem;
+    width: 60%;
 }
 
-footer .copy-right-section {
+
+
+.footer .copy-right-section {
     margin: 0 auto;
     width: 80%;
 }
 
+.footer .container .content ul li a {
+    color: grey;
+    text-decoration: none;
+}
+
+.footer .container .content li {
+    list-style: none;
+}
+
+.footer .container .content ul {
+    font-weight: bold;
+    color: var(--zwitsal-orange);
+}
+
+.footer .copy-right-section {
+    width: 60%;
+    margin: 0 auto;
+}
+
 .text-copyright {
- margin-bottom: 0;
+    
+    margin-bottom: 0;
+}
+
+.footer .container .content h1, .footer .container .content .fab {
+    color: var(--zwitsal-orange);
 }

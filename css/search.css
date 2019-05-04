@@ -2,13 +2,17 @@
 .search {
     width: 100%;
     background-color: white;
+    display: none;
+}
+
+.search.visible {
+    display: block;
 }
 
 .search-header {
     display: flex;
     justify-content: space-between;
 }
-
 .search-body {
     padding: 20px;
     background: #eee;
@@ -20,6 +24,8 @@
 .search-lists {
     text-decoration: none;
     color: red;
+    list-style: none;
+
 }
 
 .search-icon {
